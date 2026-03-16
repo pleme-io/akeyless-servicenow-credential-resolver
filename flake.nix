@@ -19,7 +19,7 @@
         pname = "akeyless-servicenow-credential-resolver";
         version = "0.0.0-dev";
         src = self;
-        mvnHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="; # TODO: set correct hash
+        mvnHash = ""; # requires nix build to compute
         description = "ServiceNow MID external credential resolver using Akeyless HTTP API";
         homepage = "https://github.com/pleme-io/akeyless-servicenow-credential-resolver";
       };
